@@ -29,7 +29,6 @@ import java.util.List;
 public class ListableEditText extends LinearLayout {
 
     private final Context context;
-
     private LetViewLayoutBinding binding;
 
     private ListableEditTextAdapter adapter;
