@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--    &lt;!&ndash;DEMO_COLORS&ndash;&gt;-->
+    <!--    <color name="color_name">#FF</color>-->
+    <!--    <color name="_02T">#05</color>-->
+    <!--    <color name="_05T">#0D</color>-->
+    <!--    <color name="_10T">#1A</color>-->
+    <!--    <color name="_15T">#26</color>-->
+    <!--    <color name="_20T">#33</color>-->
+    <!--    <color name="_25T">#40</color>-->
+    <!--    <color name="_50T">#80</color>-->
+    <!--    <color name="_75T">#BF</color>-->
+    <!--    <color name="_80T">#CC</color>-->
+    <!--    <color name="_85T">#D9</color>-->
+    <!--    <color name="_90T">#E6</color>-->
+    <!--    <color name="_95T">#F2</color>-->
+    <!--    <color name="_98T">#FA</color>-->
+
+    <!--BLACK_COLORS-->
+    <color name="black">#FF000000</color>
+    <color name="black_02T">#05000000</color>
+    <color name="black_05T">#0D000000</color>
+    <color name="black_10T">#1A000000</color>
+    <color name="black_15T">#26000000</color>
+    <color name="black_20T">#33000000</color>
+    <color name="black_25T">#40000000</color>
+    <color name="black_50T">#80000000</color>
+    <color name="black_75T">#BF000000</color>
+    <color name="black_80T">#CC000000</color>
+    <color name="black_85T">#D9000000</color>
+    <color name="black_90T">#E6000000</color>
+    <color name="black_95T">#F2000000</color>
+    <color name="black_98T">#FA000000</color>
+
+    <!--WHITE_COLORS-->
+    <color name="white">#FFFFFFFF</color>
+    <color name="white_02T">#05FFFFFF</color>
+    <color name="white_05T">#0DFFFFFF</color>
+    <color name="white_10T">#1AFFFFFF</color>
+    <color name="white_15T">#26FFFFFF</color>
+    <color name="white_20T">#33FFFFFF</color>
+    <color name="white_25T">#40FFFFFF</color>
+    <color name="white_50T">#80FFFFFF</color>
+    <color name="white_75T">#BFFFFFFF</color>
+    <color name="white_80T">#CCFFFFFF</color>
+    <color name="white_85T">#D9FFFFFF</color>
+    <color name="white_90T">#E6FFFFFF</color>
+    <color name="white_95T">#F2FFFFFF</color>
+    <color name="white_98T">#FAFFFFFF</color>
+
+    <!--GRAY_COLORS-->
+    <color name="gray">#FF808080</color>
+    <color name="gray_02T">#05808080</color>
+    <color name="gray_05T">#0D808080</color>
+    <color name="gray_10T">#1A808080</color>
+    <color name="gray_15T">#26808080</color>
+    <color name="gray_20T">#33808080</color>
+    <color name="gray_25T">#40808080</color>
+    <color name="gray_50T">#80808080</color>
+    <color name="gray_75T">#BF808080</color>
+    <color name="gray_80T">#CC808080</color>
+    <color name="gray_85T">#D9808080</color>
+    <color name="gray_90T">#E6808080</color>
+    <color name="gray_95T">#F2808080</color>
+    <color name="gray_98T">#FA808080</color>
+
+    <!--HOLO_COLORS-->
+    <color name="holo_blue_light">#33B5E5</color>
+    <color name="holo_blue_bright">#00DDFF</color>
+    <color name="holo_blue_dark">#0099CC</color>
+    <color name="holo_gray_light">#33999999</color>
+    <color name="holo_gray_bright">#33CCCCCC</color>
+    <color name="holo_green_light">#99CC00</color>
+    <color name="holo_green_dark">#669900</color>
+    <color name="holo_orange_light">#FFBB33</color>
+    <color name="holo_orange_dark">#FF8800</color>
+    <color name="holo_purple">#AA66CC</color>
+    <color name="holo_red_light">#FF4444</color>
+    <color name="holo_red_dark">#CC0000</color>
+
+</resources>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/lef_view_default_title_margin_bottom"
+                android:fontFamily="@font/roboto_bold"
+                android:text="@string/let_view_default_title_text"
+                android:textColor="@color/let_view_default_title_text_color"
+                android:textSize="@dimen/lef_view_default_title_text_size"
+                android:visibility="gone" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/container_edit_box"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toStartOf="@id/action_add"
+                    app:cardBackgroundColor="@android:color/transparent"
+                    app:cardElevation="0dp">
+
+                    <com.rengwuxian.materialedittext.MaterialEditText
+                        android:id="@+id/et_body"
+                        android:layout_width="match_parent"
+                        android:layout_height="56dp"
+                        android:ellipsize="end"
+                        android:gravity="center_vertical"
+                        android:hint="@string/let_view_default_edit_text_hint"
+                        android:imeOptions="actionDone"
+                        android:inputType="text"
+                        android:maxLines="1"
+                        android:paddingRight="25dp"
+                        android:singleLine="true"
+                        app:met_textColorHint="@color/let_view_default_edit_text_hint_color"
+                        tools:ignore="RtlHardcoded,RtlSymmetry" />
+
+                    <androidx.appcompat.widget.AppCompatImageView
+                        android:id="@+id/action_spinner"
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_gravity="end|center_vertical"
+                        android:background="@null"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/let_icon_drop_down"
+                        android:visibility="gone" />
+
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+                    android:id="@+id/action_add"
+                    android:layout_width="wrap_content"
+                    android:layout_height="44dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="@dimen/let_view_default_button_divider_size"
+                    android:background="@drawable/let_button_background"
+                    android:backgroundTint="@color/let_view_default_button_background"
+                    android:fontFamily="@font/roboto_medium"
+                    android:gravity="center"
+                    android:minWidth="@dimen/let_view_default_button_width"
+                    android:text="@string/let_view_default_button_name"
+                    android:textColor="@color/let_view_default_button_text_color" />
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/container_bottom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_helper_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/let_view_default_exception_text"
+                    android:textColor="@color/lef_view_default_exception_color"
+                    android:textSize="@dimen/lef_view_default_error_text_size"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/tv_error_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/let_view_default_error_text"
+                    android:textColor="@color/lef_view_default_error_color"
+                    android:textSize="@dimen/lef_view_default_error_text_size"
+                    android:visibility="gone" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/let_view_default_recycler_view_margin_top"
+            android:orientation="vertical"
+            android:overScrollMode="never"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            tools:itemCount="5"
+            tools:listitem="@layout/let_list_item" />
+
+    </LinearLayout>
+
+</merge>

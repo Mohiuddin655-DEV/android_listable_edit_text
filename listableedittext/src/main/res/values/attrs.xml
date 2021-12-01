@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="ListableEditText">
+        <attr name="let_autoValidate" format="boolean" />
+        <attr name="let_buttonBackground" format="reference|color" />
+        <attr name="let_buttonBackgroundTint" format="reference|color" />
+        <attr name="let_buttonEnable" format="boolean" />
+        <attr name="let_buttonText" format="string" />
+        <attr name="let_buttonTextAllCaps" format="boolean" />
+        <attr name="let_buttonTextColor" format="reference|color" />
+        <attr name="let_enable" format="boolean" />
+        <attr name="let_entries" format="reference" />
+        <attr name="let_errorText" format="string" />
+        <attr name="let_errorTextColor" format="color" />
+        <attr name="let_errorVisible" format="boolean" />
+        <attr name="let_helperText" format="string" />
+        <attr name="let_helperTextColor" format="color" />
+        <attr name="let_helperVisible" format="boolean" />
+        <attr name="let_hintColor" format="reference|color" />
+        <attr name="let_hintText" format="string" />
+        <attr name="let_inputType" format="flags">
+            <flag name="text" value="0" />
+            <flag name="number" value="1" />
+            <flag name="cap_character" value="2" />
+        </attr>
+        <attr name="let_primaryColor" format="color" />
+        <attr name="let_spinnerIcon" format="reference" />
+        <attr name="let_spinnerTint" format="reference|color" />
+        <attr name="let_spinnerVisible" format="boolean" />
+        <attr name="let_text" format="string" />
+        <attr name="let_textColor" format="color" />
+        <attr name="let_titleText" format="string" />
+        <attr name="let_titleTextColor" format="reference|color" />
+    </declare-styleable>
+
+    <eat-comment />
+
+    <color name="let_view_default_button_enabled_color">#1B9DEB</color>
+    <color name="let_view_default_button_enabled_text_color">#FFFFFF</color>
+    <color name="let_view_default_button_disabled_color">#0D000000</color>
+    <color name="let_view_default_button_disabled_text_color">#80000000</color>
+    <color name="let_view_default_edit_text_enabled_hint_color">#A8A8A8</color>
+    <color name="let_view_default_edit_text_disabled_hint_color">#C8C8C8</color>
+    <color name="let_view_default_title_enabled_text_color">#000000</color>
+    <color name="let_view_default_title_disabled_text_color">#C0C0C0</color>
+
+    <color name="lef_view_default_error_color">#FF4444</color>
+    <color name="lef_view_default_exception_color">#FFBB33</color>
+    <color name="let_list_item_default_clear_button_tint_color">#AAAAAA</color>
+    <color name="let_list_item_default_text_color">#555555</color>
+
+    <dimen name="let_view_default_button_divider_size">16dp</dimen>
+    <dimen name="lef_view_default_button_text_size">14sp</dimen>
+    <dimen name="let_view_default_button_width">75dp</dimen>
+    <dimen name="lef_view_default_edit_text_size">18sp</dimen>
+    <dimen name="lef_view_default_error_text_size">12sp</dimen>
+    <dimen name="lef_view_default_error_icon_size">18dp</dimen>
+    <dimen name="lef_view_default_error_icon_horizontal_space">8dp</dimen>
+    <dimen name="let_view_default_recycler_view_margin_top">8dp</dimen>
+    <dimen name="lef_view_default_title_margin_bottom">8dp</dimen>
+    <dimen name="lef_view_default_title_text_size">16sp</dimen>
+    <dimen name="let_list_item_default_vertical_space">8dp</dimen>
+    <dimen name="let_list_item_default_text_size">18sp</dimen>
+    <dimen name="let_list_item_default_divider_size">1dp</dimen>
+    <string name="let_view_default_button_name">Add</string>
+    <string name="let_view_default_edit_text_hint">Type here</string>
+    <string name="let_view_default_error_text">Please enter your data!</string>
+    <string name="let_view_default_exception_text">Already added!</string>
+    <string name="let_view_default_title_text">Title</string>
+    <drawable name="let_list_item_default_border_color">#0D505050</drawable>
+
+</resources>

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black_05T"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="@color/white"
+            android:orientation="vertical"
+            android:padding="24dp">
+
+            <com.bmry.listableedittext.ListableEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:let_enable="true"
+                app:let_entries="@array/countries"
+                app:let_titleText="Country names" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="@color/white"
+            android:orientation="vertical"
+            android:padding="24dp">
+
+            <com.bmry.listableedittext.ListableEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:let_enable="true"
+                app:let_titleText="Title is a title for listable edit text. I'm check this  layout the title"
+                app:let_titleTextColor="@color/check_title_text_color" />
+
+            <com.bmry.listableedittext.ListableEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                app:let_autoValidate="true"
+                app:let_enable="false"
+                app:let_titleText="Title is a title for listable edit text. I'm check this  layout the title"
+                app:let_titleTextColor="@color/check_title_text_color" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="@color/white"
+            android:orientation="vertical"
+            android:padding="24dp">
+
+            <com.bmry.listableedittext.ListableEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:let_buttonBackground="@color/primary"
+                app:let_buttonBackgroundTint="#FFE6E6"
+                app:let_buttonEnable="true"
+
+                app:let_buttonText="Button"
+                app:let_buttonTextAllCaps="true"
+                app:let_buttonTextColor="#FF0000"
+                app:let_titleText="Button style, text color, text and other modify" />
+
+            <com.bmry.listableedittext.ListableEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                app:let_autoValidate="true"
+                app:let_buttonBackground="@color/primary"
+                app:let_buttonEnable="true"
+                app:let_titleText="Button style None with auto validate" />
+
+            <com.bmry.listableedittext.ListableEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                app:let_buttonBackground="@color/primary"
+                app:let_buttonEnable="false"
+                app:let_titleText="Button style None with auto validate" />
+
+            <com.bmry.listableedittext.ListableEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:let_buttonBackgroundTint="@color/white"
+                app:let_buttonEnable="true"
+                app:let_buttonTextColor="@color/check_button_text_color"
+                app:let_titleText="Button style Text" />
+
+            <com.bmry.listableedittext.ListableEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                app:let_buttonBackgroundTint="@color/white"
+                app:let_buttonEnable="false"
+                app:let_buttonTextColor="@color/check_button_text_color"
+                app:let_titleText="Button style Text" />
+
+            <com.bmry.listableedittext.ListableEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                app:let_buttonBackground="@drawable/shape_rounded_24"
+                app:let_buttonEnable="true"
+                app:let_titleText="Button style Round" />
+
+            <com.bmry.listableedittext.ListableEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                app:let_buttonBackground="@drawable/shape_rounded_24"
+                app:let_buttonEnable="false"
+                app:let_titleText="Button style Round" />
+
+            <com.bmry.listableedittext.ListableEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                app:let_buttonBackground="@drawable/shape_oval"
+                app:let_buttonEnable="true"
+                app:let_titleText="Button style Oval" />
+
+            <com.bmry.listableedittext.ListableEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                app:let_buttonBackground="@drawable/shape_oval"
+                app:let_buttonEnable="false"
+                app:let_titleText="Button style Oval" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>
